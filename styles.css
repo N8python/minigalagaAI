@@ -1,0 +1,47 @@
+#startButton {
+  display: block;
+}
+
+h1 {
+  font-family: monospace;
+  font-variant: small-caps;
+  font-style: oblique;
+  font-stretch: expanded;
+  font-size: 75px;
+  margin: 10px;
+  text-align: center;
+}
+
+p {
+  font-family: monospace;
+  font-variant: small-caps;
+  font-style: oblique;
+  font-stretch: expanded;
+  font-size: 30px;
+  margin: 10px;
+  text-align: center;
+}
+
+canvas {
+  margin-left: 29%;
+  border: 2px solid gray;
+}
+button {
+  margin-left: 47%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 30px;
+  font-family: monospace;
+  font-variant: small-caps;
+  font-style: oblique;
+  font-stretch: expanded;
+  font-size: 30px;
+  transition: 250ms;
+}
+button:hover{
+  color: white;
+  background-image: linear-gradient(gray, darkgrey);
+
+}
